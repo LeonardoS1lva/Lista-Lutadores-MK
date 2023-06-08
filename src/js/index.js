@@ -10,9 +10,9 @@ botaoAlterarTema.addEventListener("click", () => {
 
     if (modoEscuroEstaAtivo) {
         imagemBotaoTrocaTema.setAttribute("src", "./src/imagens/light-logo-button.png");
-        imagemFundo.style.backgroundImage = "url(/src/imagens/the-courtyard-arena.png)";
+        imagemFundo.style.backgroundImage = "url(./src/imagens/the-courtyard-arena.png)";
     } else {
         imagemBotaoTrocaTema.setAttribute("src", "./src/imagens/dark-logo-button.png");
-        imagemFundo.style.backgroundImage = "url(/src/imagens/background-bridge.png)";
+        imagemFundo.style.backgroundImage = "url(./src/imagens/background-bridge.png)";
     }
 });

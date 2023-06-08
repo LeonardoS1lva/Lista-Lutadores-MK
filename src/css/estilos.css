@@ -1,6 +1,6 @@
 @font-face {
     font-family: "mortal-kombat-font";
-    src: url('/src/fonts/mortalkombat1.ttf');
+    src: url('../fonts/mortalkombat1.ttf');
 }
 
 body {
@@ -17,7 +17,7 @@ body.modo-escuro {
 }
 
 body.imagem-fundo {
-    background-image: url('/src/imagens/the-courtyard-arena.png');
+    background-image: url('../imagens/the-courtyard-arena.png');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100%;
